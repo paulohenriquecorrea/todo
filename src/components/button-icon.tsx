@@ -88,8 +88,10 @@ export default function ButtonIcon({
             size,
             disabled,
             className,
-            ...props
-        })}>
+        })}
+        disabled={disabled ?? false}
+        {...props}
+        >
             <Icon svg={icon} className={buttonIconIconVariants({variant, size})} />
         </button>
     )
