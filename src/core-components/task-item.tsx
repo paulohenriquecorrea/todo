@@ -14,7 +14,6 @@ export default function TaskItem() {
 
     function handleEditTask() {
         setIsEditing(true);
-        console.log(isEditing)
     }
 
     function handleExitEditTask() {
